@@ -2,7 +2,7 @@ function Dica(dica){
     window.alert(dica)
 }
 function Resposta(resposta_certa){
-    var resposta = prompt();
+    var resposta = prompt("Insira a resposta:");
     if(resposta === resposta_certa){
         window.alert("Parabéns!")
     }
